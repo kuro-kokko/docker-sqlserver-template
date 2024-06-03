@@ -5,6 +5,7 @@ Builds SqlServer and performs initial data submission.
 ## Setup
 
 `git clone https://github.com/kuro-kokko/docker-sqlserver-template.git`
+
 `docker-compose up -d`
 
 -   Confirmed to work with SqlServer 2019.
