@@ -1,0 +1,11 @@
+version: "3"
+services:
+    sqlserver:
+        build: .
+        environment:
+            SA_PASSWORD: "YourStrong!Passw0rd"
+            ACCEPT_EULA: "Y"
+        ports:
+            - "21433:1433"
+        volumes:
+            - ./init.db:/var/opt/mssql/init.db
